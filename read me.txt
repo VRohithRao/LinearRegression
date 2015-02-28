@@ -1,0 +1,67 @@
+Assignment 1:
+--------------------------------------------------------------------------------------------
+Run program using the command:
+
+python <FileName>.py
+-------------------------------------------------------------------------------------------
+
+********************************************************************************************
+Program files to run and expected input and output
+********************************************************************************************
+
+Question 1:
+
+programming file : LinearRegression.py
+
+input : To run the program need to give two arguments for the method computeLinearRegression(trainingFileName, testFileName):
+	which are 1) trainning file name, 2) test file name. 
+	example : computeLinearRegression('train-1000-100.csv','test-1000-100.csv')
+ 
+output : After running the program, it produces an output file which will be in csv format.
+	 The usual syntax of the output file generation is 'output'+trainningfile_name
+	example : outputtrain-1000-100.csv
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Question 2:
+
+programming file : LearningCurve.py
+
+input : To run the program need to give three arguments for the method learningCurve('train-1000-100.csv','test-1000-100.csv',lambda):
+	which are 1) trainning file name, 2) test file name and 3) lambda.
+	example : learningCurve('train-1000-100.csv','test-1000-100.csv',1)
+
+output : After running the program, it produces an output file which will be in csv format.
+	 The usual syntax of the output file generation is 'Output-Lambda'+lambda
+	example : Output-Lambda1.csv
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Question 3:
+
+programming file : CrossValidation.py
+
+input : To run the program need to give three arguments for the method crossValidation('50(1000)_100_train.csv'):
+	which are 1) trainning file name.
+	example : crossValidation('50(1000)_100_train.csv')
+
+output : After running the program, it produces an output file which will be in csv format.
+	 The usual syntax of the output file generation is 'Output-CrossValidation'-trainingFileName
+	example : Output-CrossValidation-50(1000)_100_train.csv
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+*******************************************************************************************************************************************
+Contents inside the assignment zip
+*******************************************************************************************************************************************
+
+1 --> Programming File and Data File folder under LinearRegression.zip(in the main folder)
+
+2 --> All the outputs are placed in corresponding folders (sub folders ie. LinearRegression.zip),
+	a) For programme 1, that is LinearRegression.py, the output files are placed in 'LinearRegression' folder
+	a) For programme 2, that is LearningCurve.py, the output files are placed in 'LearningCurve' folder
+	a) For programme 3, that is CrossValidation.py, the output files are placed in 'CrossValidation' folder
+
+3 --> PDF (contains the written answers and outputs)
+
